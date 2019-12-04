@@ -1,0 +1,58 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main_area {
+	width:1200px;
+	height:800px;
+	background:#DDD;
+	margin:auto;
+}
+#upper_toolbar {
+	width:1200px;
+	height:200px;
+
+	font-family: sans-serif;
+	background:#BBB;
+	display: inline-block;
+}
+#main_sidebar {
+	width:200px;
+	height:600px;
+	float:left;
+	font-family:sans-serif;
+	font-size:20px;
+	float:left;
+	background:#ABB;
+}
+#main_panel {
+	
+	height:600px;
+	float:inherit;
+	font-family:serif;
+	background:#AAA;
+	background-image:url(image.jpg);
+
+
+}
+#sub_toolbar {
+	width:inherit;
+	height:200px;
+	float:inherit;
+	font-family:sans-serif;
+	font-size:20px;
+	text-align: center;
+
+
+}
+#panel_content {
+float:inherit;
+	font-size:34px;
+	font-family:serif;
+	display:block;
+	color:#6FA;
+	
+	
+}
